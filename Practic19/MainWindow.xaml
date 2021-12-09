@@ -18,7 +18,7 @@
         <TextBox x:Name="summOfNumber" HorizontalAlignment="Left" Height="23" Margin="25,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
         <Button x:Name="Exit" Content="Выход" HorizontalAlignment="Left" Margin="14,214,0,0" VerticalAlignment="Top" Width="53" Click="Exit_Click" RenderTransformOrigin="0.924,0.7"/>
         <Button x:Name="helpMe" Content="О программе" HorizontalAlignment="Left" Margin="72,214,0,0" VerticalAlignment="Top" Width="87" RenderTransformOrigin="-0.973,-0.6" Click="helpMe_Click"/>
-        <TextBox x:Name="list" Margin="174,14,10,17" TextWrapping="Wrap"/>
+        <TextBox x:Name="list" Margin="174,14,10,17" TextWrapping="Wrap" IsReadOnly="True"/>
 
     </Grid>
 </Window>
